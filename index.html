@@ -39,25 +39,25 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Harrisonthow</title>
+<title>Home | Englert Lab</title>
 
 <link rel="icon" href="/EnglertLab_2.0/images/icon.png">
 
-<meta name="title" content="">
-<meta name="description" content="An engaging 1-3 sentence description of your lab.">
+<meta name="title" content="Home">
+<meta name="description" content="">
 
-<meta property="og:title" content="">
-<meta property="og:site_title" content="Harrisonthow">
-<meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="og:title" content="Home">
+<meta property="og:site_title" content="Englert Lab">
+<meta property="og:description" content="">
 <meta property="og:url" content="">
-<meta property="og:image" content="/EnglertLab_2.0/images/share.jpg">
+<meta property="og:image" content="/EnglertLab_2.0/images/share.png">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="">
-<meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="twitter:title" content="Home">
+<meta property="twitter:description" content="">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="/EnglertLab_2.0/images/share.jpg">
+<meta property="twitter:image" content="/EnglertLab_2.0/images/share.png">
 
 
   <meta property="og:type" content="website">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "",
-    "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "",
+    "name": "Home",
+    "description": "",
+    "headline": "Home",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/EnglertLab_2.0/images/icon.png" }
@@ -86,7 +86,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -356,9 +356,75 @@
   <script src="/EnglertLab_2.0/_scripts/tooltip.js"></script>
 
 
+  <link rel="stylesheet" href="homecarousel/ideal-image-slider.css">
+	<link rel="stylesheet" href="homecss/default.css">
 </head>
 
   <body>
+    <style>
+      .hero {
+        /* Sizing */
+          width: 100vw;
+          height: 100vh;
+          
+        /* Flexbox stuff */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        /* Text styles */
+          text-align: center;
+          color: white;
+
+
+        /* Background styles */
+          background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(images/banner.webp);
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      .hero h1 {
+      margin: 40px 0 20px 0;
+      font-size: 3em;
+      text-align: center;
+      font-weight: var(--bold);
+      letter-spacing: 1px;
+      color: #1a56c1;
+      text-transform: uppercase;
+      }
+
+      .hero h2 {
+      margin: 40px 0 20px 0;
+      font-size: 2em;
+      text-align: center;
+      font-weight(--semi-bold);
+      letter-spacing: 1px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+      .hero .btn {
+        /* Positioning and sizing */
+          display: block;
+          width: 200px;
+
+        /* Padding and margins */
+          padding: 1em;
+          margin-top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+
+        /* Text styles */
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+
+        /* Border styles */
+          border: 3px solid white;
+          border-radius: 20px;
+      }
+    </style>
+
     
 
 
@@ -367,76 +433,19 @@
 
 
 
-<header class="background" style="--image: url('/EnglertLab_2.0/images/background.jpg')" data-dark="true" data-big>
+<header class="background" style="--image: url('/EnglertLab_2.0/images/banner.webp')" data-dark="true">
   <a href="/EnglertLab_2.0/" class="home">
     
       <span class="logo">
         
-          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
-  <style>
-    .bubble {
-      animation: float 2s ease-out both infinite var(--delay);
-    }
-    @keyframes float {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        transform: translateY(0);
-        opacity: 0;
-      }
-      75% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(-40px);
-      }
-    }
-  </style>
-  <g fill="currentColor" opacity="0.5">
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
-  </g>
-  <path fill="#38bdf8" d="
-      M 0 -22.5
-      L -19.5 -11.25
-      L -19.5 11.25
-      L 0 22.5
-      L 19.5 11.25
-      L 19.5 -11.25
-      z
-    "></path>
-  <path fill="#bae6fd" d="
-      M 0 -22.5
-      L -19.5 -11.25
-      L 0 0
-      L 19.5 -11.25
-      z
-    "></path>
-  <path fill="none" stroke="currentColor" stroke-width="5" d="
-      M -18 -53
-      L -10 -53
-      L -10 -29.2
-      L -30.3 -17.5
-      L -30.3 17.5
-      L 0 35
-      L 30.3 17.5
-      L 30.3 -17.5
-      L 10 -29.2
-      L 10 -53
-      L 18 -53
-    "></path>
-</svg>
-
+          <img src="/EnglertLab_2.0/images/logo.png" alt="logo">
         
       </span>
     
     
       <span class="title" data-tooltip="Home">
         
-          <span>Harrisonthow</span>
+          <span>Englert Lab</span>
         
         
       </span>
@@ -449,13 +458,13 @@
     
     
       
-        <a href="/EnglertLab_2.0/research/" data-tooltip="Published works">
-          Research
+        <a href="/EnglertLab_2.0/publications/" data-tooltip="Published works">
+          Publications
         </a>
       
     
       
-        <a href="/EnglertLab_2.0/projects/" data-tooltip="Software, datasets, and more">
+        <a href="/EnglertLab_2.0/projects/" data-tooltip="Current projects in the Englert Lab">
           Projects
         </a>
       
@@ -481,6 +490,34 @@
   </nav>
 </header>
 
+    <section class="hero">
+      <div class="hero-inner">
+        <h5>Welcome to the Englert Lab</h5>
+        <h2>Studying lung mechanotransduction to identify novel therapies for ICU patients.</h2>
+        <a href="#main" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <script src="homecarousel/ideal-image-slider.js"></script>
+
+    <div id="slider">
+      <img src="images/carousel/1.webp" alt="ALT">
+      <img data-src="images/carousel/2.webp" src="" alt="ALT">
+      <img data-src="images/carousel/3.webp" src="" alt="ALT">
+      <img data-src="images/carousel/4.webp" src="" alt="ALT">
+      <img data-src="images/carousel/5.webp" src="" alt="ALT">
+    </div>
+
+    <script>
+      var slider = new IdealImageSlider.Slider({
+	    selector: '#slider',
+	    height: 500, // Required but can be set by CSS
+	    interval: 4000
+      });
+      slider.start();
+    </script>
+
+    <div id="main"></div>
     <main>
       <!--
   modify main content of page:
@@ -502,34 +539,16 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="harrisonthows-website">Harrisonthow’s Website</h1>
-
-<p>An engaging 1-3 sentence description of your lab.</p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="highlights">Highlights</h2>
-
-<div class="feature">
+    <div class="feature">
   <a href="/EnglertLab_2.0/research" class="feature-image" aria-label="Our Research">
-    <img src="/EnglertLab_2.0/images/photo.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/EnglertLab_2.0/images/fallback.svg'; this.onerror = null;">
+    <img src="/EnglertLab_2.0/images/projects.webp" loading="lazy" alt="Our Research" onerror="this.src = '/EnglertLab_2.0/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Research</p>
+      <p class="feature-main-title">Our Research</p>
     
     
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>The Englert Lab is part of the <a href="https://medicine.osu.edu/departments/internal-medicine/pulmonary">Division of Pulmonary, Critical Care, and Sleep Medicine</a> and the <a href="https://medicine.osu.edu/departments/davis-heart-lung-research-institute">Davis Heart and Lung Research Institute</a> at <a href="https://wexnermedical.osu.edu/">The Ohio State University Wexner Medical Center</a>.  The goal of our research group is to identify the mechanisms that lead to lung injury in the intensive care unit to develop molecularly-targeted therapies for these patients.  To facilitate this precision-based medicine strategy, we employ a multidisciplinary approach that spans the fields of molecular biology, biomedical engineering, and nanomedicine. To achieve our goals we use high fidelity models of the lung microenvironment, preclinical models of critical illness, and biospecimens from clinical studies.  This translational approach.  We are known for our collaborative approach and commitment to scientific rigor and integrity.  Another key mission of the Englert Lab is to train future generations of lung scientists.</p>
 
 <div class="button-wrapper">
     <a class="button" href="/EnglertLab_2.0/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
@@ -546,14 +565,14 @@
 
 <div class="feature" data-flip="">
   <a href="/EnglertLab_2.0/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/EnglertLab_2.0/images/photo.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/EnglertLab_2.0/images/fallback.svg'; this.onerror = null;">
+    <img src="/EnglertLab_2.0/images/carousel/4.webp" loading="lazy" alt="Our Projects" onerror="this.src = '/EnglertLab_2.0/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Projects</p>
+      <p class="feature-main-title">Our Projects</p>
     
     
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Learn more about our current research projects at the Englert Lab!</p>
 
 <div class="button-wrapper">
     <a class="button" href="/EnglertLab_2.0/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
@@ -570,14 +589,14 @@
 
 <div class="feature">
   <a href="/EnglertLab_2.0/team" class="feature-image" aria-label="Our Team">
-    <img src="/EnglertLab_2.0/images/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/EnglertLab_2.0/images/fallback.svg'; this.onerror = null;">
+    <img src="/EnglertLab_2.0/images/carousel/5.webp" loading="lazy" alt="Our Team" onerror="this.src = '/EnglertLab_2.0/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Team</p>
+      <p class="feature-main-title">Our Team</p>
     
     
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Meet the team members at the Englert Lab!</p>
 
 <div class="button-wrapper">
     <a class="button" href="/EnglertLab_2.0/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
@@ -598,7 +617,7 @@
     
 
 
-<footer class="background" style="--image: url('/EnglertLab_2.0/images/background.jpg')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/EnglertLab_2.0/images/banner.webp')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
@@ -614,7 +633,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:contact@Harrisonthow.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a class="button" href="mailto:joshua.englert@osumc.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -629,7 +648,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0001-8713-9213" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+    <a class="button" href="https://orcid.org/0000-0002-1257-2239" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
       <i class="icon fa-brands fa-orcid"></i>
       
     </a>
@@ -644,7 +663,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=ETJoidYAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+    <a class="button" href="https://scholar.google.com/citations?user=KBzS-zAAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -659,7 +678,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/Harrisonthow" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a class="button" href="https://github.com/englertlab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -674,7 +693,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://twitter.com/Harrisonthow" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
+    <a class="button" href="https://twitter.com/englertlab" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
       <i class="icon fa-brands fa-twitter"></i>
       
     </a>
@@ -689,7 +708,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://youtube.com/Harrisonthow" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
+    <a class="button" href="https://youtube.com/englertlab" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
       <i class="icon fa-brands fa-youtube"></i>
       
     </a>
@@ -701,11 +720,7 @@
 
   <div>
     © 2023
-    Harrisonthow
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
+    Englert Lab
   </div>
 
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">

@@ -39,6 +39,16 @@ h4 {
   text-align: left;
 }
 
+h5 {
+  margin: 40px 0 20px 0;
+  font-size: 3em;
+  text-align: center;
+  font-weight: var(--bold);
+  letter-spacing: 1px;
+  color: #1a56c1;
+  text-transform: uppercase;
+}
+
 :where(h1, h2, h3, h4) > .icon {
   margin-right: 1em;
   color: var(--light-gray);

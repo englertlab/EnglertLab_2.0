@@ -1,47 +1,26 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Targeting mTORC1 activation during lung injury
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/projects/mtor.webp
+  link: ../projects/mtorc1.html
+  description:  Discovering mTORC1's role as a mechanosensor in lung injury during ventilation. Reshaping respiratory medicine.
 
-- title: Cool Package
-  subtitle: a subtitle
+
+- title: Nanoparticle drug delivery for ARDS
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: images/projects/nano.webp
+  link: ../projects/npards.html
+  description: Prior ARDS trials used systemic delivery but didn't succeed. Our inhaled lipid nanoparticles with miR-146a prevent lung injury in mechanosensitive lung macrophages.
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: Zinc metabolism in ARDS
+  group: featured
+  image: images/projects/znards.webp
+  link: ../projects/zmards.html
+  description: Zinc deficiency increases lung injury risk during ventilation. Our study with 650 ICU patients may lead to a clinical trial for ARDS zinc supplementation.
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Translation studies of critically-ill ICU patients
+  group: featured
+  image: images/projects/transstudy.webp
+  link: ../projects/icu.html
+  description: Dr. Englert collaborates on biorepositories, investigating ARDS mechanisms in diverse patient groups and participating in 30+ ICU clinical trials.
+

@@ -2,13 +2,12 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Current projects in the Englert Lab
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+<h5>Projects</h5>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Here, you can find a list of the newest projects currently being worked on in the Englert lab, as well as a brief description about what the project entails!
 
 {% include tags.html tags="publication, resource, website" %}
 
@@ -21,7 +20,3 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 {% include list.html component="card" data="projects" filters="group: featured" %}
 
 {% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filters="group: " style="small" %}

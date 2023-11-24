@@ -1,23 +1,55 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
-
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: pubmed:37595605
+- id: pubmed:37119468
+- id: pubmed:37348524
+- id: pubmed:37250794
+- id: pubmed:36693401
+- id: pubmed:36682407
+- id: pubmed:36824913
+- id: pubmed:36688507
+- id: pubmed:36502870
+- id: pubmed:35958610
+- id: pubmed:35620769
+- id: pubmed:35288471
+- id: pubmed:33779386
+- id: pubmed:34740873
+- id: pubmed:35103557
+- id: pubmed:34138757
+- id: pubmed:33688748
+- id: pubmed:33436554
+- id: pubmed:33045713
+- id: pubmed:32404613
+- id: pubmed:32176850
+- id: pubmed:32159972
+- id: pubmed:31826336
+- id: pubmed:31606045
+- id: pubmed:31112383
+- id: pubmed:30288751
+- id: pubmed:30668546
+- id: pubmed:30674720
+- id: pubmed:30665420
+- id: pubmed:30518685
+- id: pubmed:30134503
+- id: pubmed:30022742
+- id: pubmed:29957041
+- id: pubmed:29490174
+- id: pubmed:28912466
+- id: pubmed:28570269
+- id: pubmed:28410310
+- id: pubmed:28365585
+- id: pubmed:27636016
+- id: pubmed:28035861
+- id: pubmed:27229648
+- id: pubmed:26767950
+- id: pubmed:26068207
+- id: pubmed:25208554
+- id: pubmed:22517795
+- id: pubmed:21967897
+- id: pubmed:21460622
+- id: pubmed:21151103
+- id: pubmed:16953558
+- id: pubmed:16382025
+- id: pubmed:16226725
+- id: pubmed:16107229
+- id: pubmed:15782315
+- id: pubmed:15525791
+- id: pubmed:15614131

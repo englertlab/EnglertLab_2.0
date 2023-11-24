@@ -1,18 +1,18 @@
 # site properties and page defaults
-title: Harrisonthow
+title: Englert Lab
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+description:
+header: images/banner.webp
+footer: images/banner.webp
 
 # site social media and other links
 links:
-  email: contact@Harrisonthow.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: Harrisonthow
-  twitter: Harrisonthow
-  youtube: Harrisonthow
+  email: joshua.englert@osumc.edu
+  orcid: 0000-0002-1257-2239
+  google-scholar: KBzS-zAAAAAJ
+  github: englertlab
+  twitter: englertlab
+  youtube: englertlab
 
 ### jekyll settings
 

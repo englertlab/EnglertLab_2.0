@@ -37,6 +37,16 @@ $wrap: 800px;
   font-weight: var(--semi-bold);
 }
 
+.feature-main-title {
+  font-size: var(--xxl);
+  text-align: center;
+  color: #1956c0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
 .feature[data-flip] {
   flex-direction: row-reverse;
 }

@@ -3,13 +3,18 @@ title: Team
 nav:
   order: 3
   tooltip: About our team
+carousels:
+  - images: 
+    - image: /images/funding/ats_new.webp
+    - image: /images/funding/csctr_new.webp
+    - image: /images/funding/feds_new.webp
+    - image: /images/funding/nhlbi_new.webp
+    - image: /images/funding/osucom_new.webp
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+<h5>Team</h5>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The Englert Lab is comprised of seven individuals ranging from undergraduate to medical fellows. Click on thier name to learn more about them, their work in the Englert lab, and more!
 
 {% include section.html %}
 
@@ -18,18 +23,11 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Funding
 
-{% include section.html %}
+Our work is made possible by funding from the following organizations.
+{:.center}
 
-{% capture content %}
+{% include carousel.html height="25" unit="%" duration="10" number="1" %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+{:.center}

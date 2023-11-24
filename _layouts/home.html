@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  {% include homehead.html %}
+  <body>
+    <style>
+      .hero {
+        /* Sizing */
+          width: 100vw;
+          height: 100vh;
+          
+        /* Flexbox stuff */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        /* Text styles */
+          text-align: center;
+          color: white;
+
+
+        /* Background styles */
+          background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(images/banner.webp);
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      .hero h1 {
+      margin: 40px 0 20px 0;
+      font-size: 3em;
+      text-align: center;
+      font-weight: var(--bold);
+      letter-spacing: 1px;
+      color: #1a56c1;
+      text-transform: uppercase;
+      }
+
+      .hero h2 {
+      margin: 40px 0 20px 0;
+      font-size: 2em;
+      text-align: center;
+      font-weight(--semi-bold);
+      letter-spacing: 1px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+      .hero .btn {
+        /* Positioning and sizing */
+          display: block;
+          width: 200px;
+
+        /* Padding and margins */
+          padding: 1em;
+          margin-top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+
+        /* Text styles */
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+
+        /* Border styles */
+          border: 3px solid white;
+          border-radius: 20px;
+      }
+    </style>
+
+    {% include homeheader.html %}
+    <section class="hero">
+      <div class="hero-inner">
+        <h5>Welcome to the Englert Lab</h5>
+        <h2>Studying lung mechanotransduction to identify novel therapies for ICU patients.</h2>
+        <a href="#main" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <script src="homecarousel/ideal-image-slider.js"></script>
+
+    <div id="slider">
+      <img src="images/carousel/1.webp" alt="ALT">
+      <img data-src="images/carousel/2.webp" src="" alt="ALT">
+      <img data-src="images/carousel/3.webp" src="" alt="ALT">
+      <img data-src="images/carousel/4.webp" src="" alt="ALT">
+      <img data-src="images/carousel/5.webp" src="" alt="ALT">
+    </div>
+
+    <script>
+      var slider = new IdealImageSlider.Slider({
+	    selector: '#slider',
+	    height: 500, // Required but can be set by CSS
+	    interval: 4000
+      });
+      slider.start();
+    </script>
+
+    <div id="main"></div>
+    <main>
+      {% include content.html content=content %}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

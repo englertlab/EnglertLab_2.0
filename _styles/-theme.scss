@@ -3,17 +3,17 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0ea5e9;
-  --secondary: #7dd3fc;
+  --primary: #BA0C2F;
+  --secondary: #A7B1B7;
   --text: #000000;
   --background: #ffffff;
   --background-alt: #fafafa;
   --light-gray: #e0e0e0;
-  --gray: #808080;
+  --gray: #899097;
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0ea5e9;
+  --primary: #BA0C2F;
   --secondary: #075985;
   --text: #ffffff;
   --background: #181818;
@@ -25,16 +25,16 @@
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Poppins", sans-serif;
+  --heading: "Poppins", sans-serif;
+  --body: "Poppins", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
-  --medium: 1rem;
-  --large: 1.2rem;
-  --xl: 1.4rem;
-  --xxl: 1.6rem;
+  --medium: 1.3rem;
+  --large: 1.5rem;
+  --xl: 1.6rem;
+  --xxl: 1.8rem;
 
   // font weights
   --thin: 200;

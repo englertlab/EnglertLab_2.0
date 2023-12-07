@@ -9,7 +9,7 @@ The Englert Lab is part of the [Division of Pulmonary, Critical Care, and Sleep 
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -21,7 +21,7 @@ The Englert Lab is part of the [Division of Pulmonary, Critical Care, and Sleep 
 {%
   include featurehome.html
   image="images/projects.webp"
-  link="research"
+  link="publications"
   title="Our Research"
   text=text
 %}

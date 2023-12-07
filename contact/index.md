@@ -2,7 +2,7 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Contact Info
 ---
 
 <h5>Interested in joining our Lab?</h5>

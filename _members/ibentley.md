@@ -5,6 +5,8 @@ role: pccf
 aliases:
   - I. Bentley
   - I Bentley
+  - Ian Bentley
+  - Bentley
 
 links:
   email: bentley.173@osu.edu

@@ -2,6 +2,7 @@
 name: Maya Langenecker
 image: images/members/mlangenecker.webp
 role: ra
+group: researcher
 links:
   email: langenecker.1@osu.edu
 ---

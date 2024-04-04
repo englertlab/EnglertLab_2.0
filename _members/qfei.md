@@ -2,6 +2,7 @@
 name: Qinqin Fei, PhD
 image: images/members/qfei.webp
 role: gs
+group: researcher
 aliases:
   - Q. Fei
   - Qinqin Fei

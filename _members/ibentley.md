@@ -2,6 +2,7 @@
 name: Ian Bentley, MD
 image: images/members/ibentley.webp
 role: pccf
+group: researcher
 aliases:
   - I. Bentley
   - I Bentley

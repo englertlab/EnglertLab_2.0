@@ -2,6 +2,7 @@
 name: Siying Xu
 image: images/members/sxu.webp
 role: gs
+group: researcher
 aliases:
   - Siying Xu
   - S. Xu

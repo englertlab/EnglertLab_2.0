@@ -2,6 +2,7 @@
 name: Jon Fritz
 image: images/members/jfritz.webp
 role: gs
+group: researcher
 links:
   email: fritz.288@osu.edu
 ---

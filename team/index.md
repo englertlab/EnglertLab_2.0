@@ -23,6 +23,12 @@ The Englert Lab is comprised of seven individuals ranging from undergraduate to 
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+{% include section.html %}
+
+<h5>Alumni</h5>
+
+{% include list.html data="members" component="portrait" filters="group: alumni" %}
+
 ## Funding
 
 Our work is made possible by funding from the following organizations.

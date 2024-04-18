@@ -19,6 +19,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 This is a test - JF or Jon Fritz
 
+_does this end up in italics?_ -Ian
+
 _italic text_
 
 **bold text**

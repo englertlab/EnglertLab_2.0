@@ -1,7 +1,6 @@
 ---
 name: Ryelie Barnes
 image: images/members/rbarnes.webp
-role: undergrad
 group: alumni
 links:
   email: barnes.1052@osu.edu

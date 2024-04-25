@@ -14,7 +14,7 @@ carousels:
 
 <h5>Team</h5>
 
-The Englert Lab is comprised of seven individuals ranging from undergraduate to medical fellows. Click on thier name to learn more about them, their work in the Englert lab, and more!
+The Englert Lab is comprised of six individuals ranging from undergraduate to medical fellows. Click on their names to meet them, learn about their work in the Englert lab, and more!
 
 {% include section.html %}
 
@@ -26,7 +26,6 @@ The Englert Lab is comprised of seven individuals ranging from undergraduate to 
 <h5>Alumni</h5>
 
 {% include list.html data="members" component="portrait" filters="group: alumni" %}
-
 
 {% include section.html background="images/background.jpg" dark=true %}
 

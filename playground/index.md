@@ -18,6 +18,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 [Internal link](../team)
 
 This is a test - JF or Jon Fritz
+{:.center}
 
 _does this end up in italics?_ -Ian
 

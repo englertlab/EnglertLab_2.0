@@ -205,7 +205,7 @@ _Lorem_ **ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 ### List projects
 
 {% include list.html data="projects" component="card" %}
-
+{:.center}
 ---
 
 ### List team members

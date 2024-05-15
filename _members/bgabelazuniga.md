@@ -1,5 +1,5 @@
 ---
-name: Basia Gabela-Zuniga
+name: Basia Gabela-Zuniga, PhD
 image: images/members/basiaGabela-Zuniga.JPG
 group: alumni
 aliases:

@@ -51,6 +51,16 @@ h5 {
   color: #1a56c1;
   text-transform: uppercase;
 }
+/*defining new style for landing page, copied h5 and modified color*/
+h6 {
+  margin: 40px 0 20px 0;
+  font-size: 3em;
+  text-align: center;
+  font-weight: var(--bold);
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
 :where(h1, h2, h3, h4) > .icon {
   margin-right: 1em;

@@ -53,7 +53,7 @@ Learn more about our current research projects at the Englert Lab!
 
 {% capture text %}
 
-Meet the team members at the Englert Lab!
+The Englert Lab draws on a diverse group of undergraduates, research assistants, graduate students, and physicians. Meet the team members at the Englert Lab!
 
 {%
   include button.html

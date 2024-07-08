@@ -73,3 +73,5 @@ The Englert Lab draws on a diverse group of undergraduates, research assistants,
   title="Our Team"
   text=text
 %}
+
+<a class="twitter-timeline" href="https://twitter.com/joshenglert_md?ref_src=twsrc%5Etfw">Tweets by joshenglert_md</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
